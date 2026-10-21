@@ -6,8 +6,8 @@ function Navbar (){
     const [isOpen, setIsOpen] =useState(false)
     return(
         <>
-        <div className="flex justify-between p-6 bg-yellow-300 items-center">
-            <div className="text-4xl font-bold font-serif">BiteBeast🍕</div>
+        <div className="flex justify-between p-6 bg-orange-400/90 items-center">
+            <div className="text-4xl font-bold font-serif ">Craving  <span className="text-xl"><i>by Ali</i></span>🥢</div>
             <nav className=" hidden md:flex gap-10 font-bold items-center">
                 <Link to='/' className="hover:text-white hover:border-b-2 hover:border-b-black" >Home</Link>
                 <Link to='/about' className="hover:text-white hover:border-b-2 hover:border-b-black" >About</Link>
