@@ -47,7 +47,7 @@ function Home (){
                 </div>
             </div>
 
-            <h1 className="text-white mt-10 text-center text-3xl font-serif font-bold"><i>Food<span className="text-2xl"> Items</span></i></h1>
+            <h1 className="text-white mt-10 text-center text-3xl font-serif font-bold"><i>Food<span className="text-2xl text-orange-500"> Items</span></i></h1>
             <div className="grid justify-center md:grid-cols-3 gap-4 p-6 ">
                 <img className="rounded-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64XJzueYiTIMXr3hAkie6Y5R08W25QRwHdYC4fCNW5Q&s=10" width={350}></img>
                 <img className="rounded-2xl ml-4"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEiigtcaisR1htfultugVLSvlqd8wOENkFraslL19q1Q&s=10" width={320}></img>
