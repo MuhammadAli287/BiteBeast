@@ -51,7 +51,7 @@ function About (){
             </div>
             <div className="border-r-2 border-r-gray-300 ">
                 <h1 className="text-green-900 text-2xl font-bold font-serif">Quality First</h1>
-                <p className="text-gray-700">We focus on flavor, consistency and a welcoming dining experience.</p>
+                <p className="text-gray-700">We focus on a flavor, consistency and a welcoming dining experience.</p>
             </div>
             </div>
 
