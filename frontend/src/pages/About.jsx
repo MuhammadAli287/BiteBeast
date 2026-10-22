@@ -37,7 +37,7 @@ function About (){
             <div className="p-10 text-center">
                 <h2 className="text-green-900">~~ OUR VALUES ~~</h2>
                 <h1 className="text-3xl md:text-4xl text-green-900 font-bold font-serif">The Craving<i> <span className="text-yellow-500">Promise</span></i></h1>
-                <p className="text-gray-700">The little things that make a dining experience special.</p>
+                <p className="text-gray-700">The little things that make a dining experience specials.</p>
             </div>
 
             <div className="p-10 grid md:grid-cols-3 gap-4 text-center">
