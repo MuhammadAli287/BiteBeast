@@ -57,7 +57,15 @@ function Home (){
             <div className="text-center mt-6">
             <Link className="px-4 py-2 bg-orange-600 text-white font-semibold rounded-lg animate-pulse text-center " to="/menu">View Menu</Link>
         </div>
+
+        
         </section>
+        <section>
+                <div className="bg-green-950 p-8 text-center">
+                    <h1 className="text-3xl text-white mb-6 font-serif">Your table is <span className="text-yellow-400">waiting.</span></h1>
+                    <Link className="bg-yellow-500 px-4 py-2 rounded-3xl mt-4 text-white " to="/reserve">Reserve Table</Link>
+                </div>
+            </section>
         </>
     )
 }

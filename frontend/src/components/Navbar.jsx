@@ -15,8 +15,7 @@ function Navbar (){
                 <Link to='/contact' className="hover:text-white hover:border-b-2 hover:border-b-black" >Contact</Link>
 
             </nav>
-           <Link to='/login' className="font-bold font-serif  text-white bg-black px-4 py-2 rounded-lg" >Login</Link>
-
+           
             {/* Hamburger */}
           <button
             onClick={() => setIsOpen(!isOpen)}
