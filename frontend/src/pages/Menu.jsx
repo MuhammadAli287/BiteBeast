@@ -2,7 +2,7 @@
 function Menu (){
     return(
         <>
-        <h1>Hello Menu </h1>
+        <h1>Hello Menu page  </h1>
         </>
     )
 }
