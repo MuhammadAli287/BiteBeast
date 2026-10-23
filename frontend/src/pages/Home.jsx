@@ -11,7 +11,7 @@ function Home (){
                     Our curated selection of international flavours will tantalize<br/> your taste trasport. </p>
                     <button className="px-4 py-2 text-xs mt-8 bg-orange-500 text-white rounded-3xl">Book a Moment</button>
                 </div>
-                <div className="p-12"  >
+                <div className="p-4 md:p-12 flex justify-center"  >
                     <img className="rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqGQMXvmFDGk85YZEYMSAl1Sh8-bGFNPVmWFv-2nm9vA&s=10" width={350}></img>
                 </div>
                 <div className="ml-20 md:ml-0">
