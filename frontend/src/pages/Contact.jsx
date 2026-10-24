@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 
 function Contact (){
     return(
@@ -58,6 +59,8 @@ function Contact (){
                 <img className="rounded-xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCM-7TSrQ77R3Blt4z85aapI2MSROqTPBXSSONAFSJQg&s=10" width={300} ></img>
             </div>
         </section>
+
+          <Footer/>
         </>
     )
 }

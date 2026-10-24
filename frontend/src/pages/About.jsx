@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import storyImage from "./storyabout.png.png";
+import Footer from "../components/Footer";
 
 function About() {
     return (
@@ -11,26 +12,6 @@ function About() {
                     className="w-full h-[210px] md:h-[510px] object-cover"
                 />
 
-                <div className="p-6 px-10 md:px-40 grid md:grid-cols-2 justify-around gap-6 bg-yellow-50 ">
-                    <div className="flex justify-center items-center">
-                        <img className="rounded-2xl " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0T8mdIGMgSYk_wTQ84zK8r1DSJsVb1h68TgJocTEabA&s=10" width={400}></img>
-                    </div>
-                    <div>
-                        <h3 className="text-yellow-600">OUR JOURNEY ~~~</h3>
-                        <h1 className="text-green-950 mt-2 text-3xl font-bold font-serif">
-                            More Than Just<i><span className="text-yellow-600"> a meal</span></i>
-                        </h1>
-                        <p className="text-gray-800 mt-4 mb-6">
-                            Craving was created around a simple idea: good food should bring people
-                            closer together. We celebrate familiar favorities, fresh flavors and the joy
-                            of sharing a meal.<br />
-                            Whether you're meeting friends, enjoying family time or treating yourself, we want every visit to feel warm, welcoming and worth remembering.
-
-                        </p>
-                        <Link className="px-4 py-2 animate-pulse rounded-2xl text-xs bg-green-950 text-white" to="/menu">Explore Our Menu</Link>
-                    </div>
-
-                </div>
 
             </section>
             <section className="bg-gray-50">
@@ -96,6 +77,8 @@ function About() {
                     <Link className="bg-yellow-500 px-4 py-2 rounded-3xl mt-4 text-white " to="/reserve">Reserve Table</Link>
                 </div>
             </section>
+
+              <Footer />
         </>
     )
 }
