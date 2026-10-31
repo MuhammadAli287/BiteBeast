@@ -5,7 +5,7 @@ function Home (){
     return(
         <>
         <section className="p-6 bg-green-950/90 bg-#173D30">
-            <div className="ml-8 grid md:grid-cols-3 justify-around gap-8">
+            <div className="ml-8 mt-28 grid md:grid-cols-3 justify-around gap-8">
                 <div className="mt-16 text-center">
                     <h1 className=" text-3xl md:text-5xl font-semibold font-serif text-white">Make A Moment<br/> With <span className="text-orange-500 animate-pulse"> Craving </span></h1>
                     <p className="text-white mt-6 font-serif">Embark on a gastronomic journey with Craving.<br/>

@@ -5,14 +5,15 @@ import Footer from "../components/Footer";
 function About() {
     return (
         <>
-            <section>
+            <section >
+                <div>
                 <img
                     src={storyImage}
                     alt="Our Story"
-                    className="w-full h-[210px] md:h-[510px] object-cover"
+                    className="w-full h-[210px] md:h-[510px] object-cover "
                 />
 
-
+</div>
             </section>
             <section className="bg-gray-50">
                 <div className="p-10 text-center">

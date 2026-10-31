@@ -3,8 +3,8 @@ import Footer from "../components/Footer";
 function Contact (){
     return(
         <>
-        <section>
-            <div className="bg-green-950 p-10 md:p-20 ">
+        <section className="">
+            <div className="bg-green-950 p-10 md:p-20 pt-46 md:pt-50">
                 <h2 className="text-3xl text-yellow-600 font-serif">GET IN TOUCH</h2>
                 <h1 className="text-5xl text-white">Contact<span className="text-yellow-600"> Us</span></h1>
                 <p className="text-white mt-6">Have a question or want to plan a visit? Send us a message <br/>
