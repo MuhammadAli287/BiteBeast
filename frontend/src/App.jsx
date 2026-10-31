@@ -5,8 +5,11 @@ import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import Reserve from "./pages/Reserve";
+import { useEffect, useState } from "react";
 
 function App(){
+
+
 return(
   <>
   <BrowserRouter>
@@ -21,7 +24,8 @@ return(
     
   </Routes>
   </BrowserRouter>
- 
+
+  
   </>
 )
 }
