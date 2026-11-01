@@ -37,7 +37,7 @@ function Navbar (){
                      z-50
                      p-6
                      rounded-3xl
-                     bg-gradient-to-r from-yellow-300/50 to-yellow-300/50
+                      bg-gradient-to-r from-gray-900/50 to-green-300/50
                      backdrop-blur-xl
                      border border-white/40
                      shadow-xl
@@ -53,13 +53,13 @@ function Navbar (){
               onClick={() => setIsOpen(false)}
               className="w-full py-5
                          rounded-2xl
-                         bg-yellow-300/60
+                         bg-orange-400/60
                          backdrop-blur-md
                          border border-white/40
                          text-center
                          text-2xl font-semibold
-                         text-gray-700
-                         hover:bg-gradient-to-r from-yellow-200/90 to-gray-500
+                         text-white
+                         hover:bg-gradient-to-r from-orange-400/90 to-black
                          hover:border-1 hover:border-gray-300 hover:shadow-xl"
             >
               Home
@@ -70,13 +70,13 @@ function Navbar (){
               onClick={() => setIsOpen(false)}
               className="w-full py-5
                          rounded-2xl
-                         bg-yellow-300/60
+                         bg-orange-400/60
                          backdrop-blur-md
                          border border-white/40
                          text-center
                          text-2xl font-semibold
-                         text-gray-700
-                          hover:bg-gradient-to-r from-yellow-200/90 to-gray-500
+                         text-white
+                          hover:bg-gradient-to-r from-orange-400/90 to-black
                          hover:border-1 hover:border-gray-300 hover:shadow-xl"
             >
               About
@@ -87,13 +87,13 @@ function Navbar (){
               onClick={() => setIsOpen(false)}
               className="w-full py-5
                          rounded-2xl
-                         bg-yellow-300/60
+                         bg-orange-400/60
                          backdrop-blur-md
                          border border-white/40
                          text-center
                          text-2xl font-semibold
-                         text-gray-700
-                          hover:bg-gradient-to-r from-yellow-200/90 to-gray-500
+                         text-white
+                          hover:bg-gradient-to-r from-orange-400/90 to-black
                          hover:border-1 hover:border-gray-300 hover:shadow-xl"
             >
              Menu
@@ -104,13 +104,13 @@ function Navbar (){
               onClick={() => setIsOpen(false)}
               className="w-full py-5
                          rounded-2xl
-                         bg-yellow-300/60
+                         bg-orange-400/60
                          backdrop-blur-md
                          border border-white/40
                          text-center
                          text-2xl  font-semibold
-                         text-gray-700
-                          hover:bg-gradient-to-r from-yellow-200/90 to-gray-500
+                         text-white
+                          hover:bg-gradient-to-r from-orange-400/90 to-black
                          hover:border-1 hover:border-gray-300 hover:shadow-xl"
             >
               Contact
