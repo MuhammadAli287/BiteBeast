@@ -2,8 +2,8 @@
 function Footer (){
     return(
          <>
-        <hr className="m-6 mt-10" />
-       <div className="p-6 text-white bg-green-950 text-center mt-10 grid md:grid-cols-3 justify-center items-center">
+        <hr className="ml-6 mr-6 mt-2" />
+       <div className="p-6 text-white bg-green-950 text-center  grid md:grid-cols-3 justify-center items-center">
         <div>
             <h1 className="text-3xl font-bold font-serif">Craving <span><i>by Ali</i></span></h1>
             <p className="text-gray-200">Accelerating startups from idea to market with rapid food. Turn our taste for your craving  
