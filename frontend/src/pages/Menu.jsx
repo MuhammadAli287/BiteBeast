@@ -2,10 +2,9 @@ import Card from "../components/Card";
 import Footer from "../components/Footer";
 import { useState,useEffect } from "react";
 
-
 function Menu(){
 
-    const [menus, setmenus]=useState([])
+    const [menus, setmenus]=useState([]) 
 
  useEffect(() => {
   async function getmenu() {

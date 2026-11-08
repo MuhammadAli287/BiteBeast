@@ -193,17 +193,6 @@ router.get('/',(req,res)=>{
   },
   {
     "id": 18,
-    "title": "Grilled Chicken Sandwich",
-    "price": 11.49,
-    "category": "English Food",
-    "rating": 4.5,
-    "image": "https://images.unsplash.com/photo-1553909489-cd47e0ef937f",
-    "description": "Grilled chicken, crisp lettuce, and herb dressing in toasted bread.",
-    "inStock": true,
-    "reviews": 69
-  },
-  {
-    "id": 19,
     "title": "Four Cheese Pizza",
     "price": 16.49,
     "category": "Pizza",
@@ -214,7 +203,7 @@ router.get('/',(req,res)=>{
     "reviews": 91
   },
   {
-    "id": 20,
+    "id": 19,
     "title": "Mushroom Steak",
     "price": 23.49,
     "category": "Steak",
