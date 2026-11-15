@@ -1,15 +1,10 @@
-const dns = require("dns");
-dns.setServers(["8.8.8.8","1.1.1.1"]);
 
 const express = require ('express')
-const cors = require ('cors')
-const mongoose = require ('mongoose');
 const data = require("../models/data");
-const app = express()
-app.use(cors());
-app.use(express.json());
 
-require ('dotenv').config();
+const router = express.Router();
+
+
 
 router.post('/api/data',async(req,res)=>{
     try{
@@ -44,6 +39,27 @@ router.post('/api/data',async(req,res)=>{
         })
     }
 })
+
+router.get('/api/data/:id'), async (req,res)=>{
+    try{
+        const data = await data.findById(req.params.id)
+        if(!data){
+            res.status(404).json({
+             'message':"data not found"
+            })
+        }
+
+        res.json({
+            'message':"data show",
+            'data':data
+        })
+    }catch(error){
+        res.status(500).json({
+            'message':"data not fetched",
+            'error': error.message
+        })
+    }
+}
 
 router.put('/api/data/:id', async (req,res)=>{
 try{
